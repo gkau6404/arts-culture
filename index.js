@@ -27,4 +27,51 @@ $(window).load(function(){
     $(".centers").delay(1500).fadeOut(1000);  
      $(".text").delay(10500).fadeIn(1000); 
     
-      
+$(document).ready(function() {
+  $("#testimonial-slider").owlCarousel({
+    items: 3,
+    itemsDesktop:[1000,3],
+    itemsDesktopSmall:[979,2],
+    itemsTablet:[768, 2],
+    itemsMobile:[650, 1],
+    pagination: true,
+    autoPlay: true
+  });
+});
+
+
+function biograph(e) {
+	if(e.className == 'about__slot') {
+		e.className = 'about__slot bio';
+	}
+	else {
+		e.className = 'about__slot';
+	}
+}
+
+$('.counting').each(function() {
+  var $this = $(this),
+      countTo = $this.attr('data-count');
+  
+  $({ countNum: $this.text()}).animate({
+    countNum: countTo
+  },
+
+  {
+
+    duration: 3000,
+    easing:'linear',
+    step: function() {
+      $this.text(Math.floor(this.countNum));
+    },
+    complete: function() {
+      $this.text(this.countNum);
+      //alert('finished');
+    }
+
+  });  
+  
+
+});
+
+
