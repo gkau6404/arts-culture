@@ -10,7 +10,7 @@ window.onload = function() {
 
   //User Object
   var User = {
-    name: "Francisco",
+    name: "PerformNYC",
     donationCollect: 56,
     donationGoal: 500
   };
