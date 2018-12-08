@@ -6,19 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-          <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css" type="text/css" />
         <link rel="stylesheet" href="https://unpkg.com/shards-ui@latest/dist/css/shards.min.css" type="text/css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" type="text/css" />
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
-      <link rel="stylesheet" href="infinite-slider.css" type="text/css" />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+        <link rel="stylesheet" href="infinite-slider.css" type="text/css" />
         <link rel="stylesheet" href="styles.css" type="text/css" />
-        
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js" integrity="sha256-ihAoc6M/JPfrIiIeayPE9xjin4UWjsx2mjW/rtmxLM4=" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.js" integrity="sha256-6HSLgn6Ao3PKc5ci8rwZfb//5QUu3ge2/Sw9KfLuvr8=" crossorigin="anonymous"></script>
       </head>
         <body class="w3-black">
           
@@ -59,7 +58,6 @@
 
 
 
-
 <div class="outer-menu">
   <input class="checkbox-toggle" type="checkbox" />
   <div class="hamburger">
@@ -69,11 +67,14 @@
     <div>
       <div>
         <ul>
-          <li style="color:white;"><a href="#">Home</a></li>
-          <li style="color:white;"><a href="#">About</a></li>
-          <li style="color:white;"><a href="index.html">Services and Partners</a></li>
-          <li style="color:white;"><a href="#">Contact</a></li>
-          <li style="color:white;"><a href="#">Donation</a></li>
+          <li style="color:white;"><a href="indexx.html">Home</a></li>
+          <li style="color:white;"><a href="#about">About</a></li>
+          <li style="color:white;"><a href="#services">Services</a></li>
+          <li style="color:white;"><a href="#partners">Partners</a></li>
+          <li style="color:white;"><a href="#team">Team</a></li>
+          <li style="color:white;"><a href="#calender">Calander</a></li>
+          <li style="color:white;"><a href="#contact">Contact</a></li>
+
         </ul>
       </div>
     </div>
@@ -83,12 +84,12 @@
 
 
        <!--about-->
-       <div style="padding-top:110vh;">
+       <div style="padding-top:100vh;">
   
-      <section>  
+      <section id="about">  
 
 <!-- Container (About Section) -->
-<div style="padding-top:15%" class="about w3-content w3-container w3-padding-54" id="about">
+<div style="padding-top:2%" class="about w3-content w3-container w3-padding-54" id="about">
   <h2 style="color: white;" class="w3-center">ABOUT US</h2>
   <p class="w3-center"><em>Combining Dance and Technology</em></p>
   <p>Our mission is to promote the merging of technology and the performing arts. We hope to use the performing arts as a platform to expose and engage performers to visual arts technology. We want to break the mindset that creativity or technology is mutually exclusive.</p>
@@ -109,8 +110,8 @@
 
 </section>
 
-<section>  
-<div style="padding-top:80px" class="about__section"> <!-- Specificity container -->
+<section id="team" style="height:10vh !important;">  
+<div style="padding-top:20px; max-width:100%;" class="about__section"> <!-- Specificity container -->
 <a href="javascript:void(0);" title="Koby Conrad - CEO"><div class="about__slot"><div class="headshot" onclick="biograph(this.parentNode);" style="background-size:130%;background-image:url('https://www.organicheadshots.com/images/headshot06-thumb.jpg');"></div>
   <div class="about__info">
   <h4 class="name">Maya Conrad</h4>
@@ -169,23 +170,23 @@
 
 </section>
 
-<section class="hii" style="padding-top:80px; padding-bottom:-50px; margin-right:100px;">
+<section id="Results" class="hii" style=" height:4vh !important; padding-top:80px; padding-bottom:-50px; margin-right:100px;">
  <h2 class="title" style="text-align:center; color:white;">Results</h2>
- <p style="text-align:center; color:white;">This is the results of what we have done thus far and we hope that these numbers increase to reach our goal of combining tech and dance!</p>
+ <p style="text-align:center; color:white;">Here are the results of many of NYC's students that have taken part with PerformNYC!</p>
   <section style="padding-right:50px !important;" id="counter-stats" class="wow fadeInRight" data-wow-duration="8.4s">
 	<div style="padding-right:50px !important;" class="container">
 		<div class="row">
 
 			<div class="col-lg-3 stats">
 				<i class="fa fa-user" aria-hidden="true"></i>
-				<div class="counting" data-count="1050">0</div>
-				<h5>High school and colleges students served</h5>
+				<div class="counting" data-count="1050">2000</div>
+				<h5>High school and college students served in total</h5>
 			</div>
 
 			<div class="col-lg-3 stats">
 				<i class="fa fa-user" aria-hidden="true"></i>
 				<div class="counting" data-count="556">0</div>
-				<h5>High schoolers reported Stem Proficiency </h5>
+				<h5>High schoolers reported Stem Proficiency</h5>
 			</div>
 
 			<div class="col-lg-3 stats">
@@ -207,29 +208,123 @@
 	<!-- end container -->
 
 </section>
-  
 </section>
 
-<section>
+<section id="calender"  class="hii" style=" height:4vh !important;  margin-right:100px;">
+  
+  <div><p style="font-size:40px; color:white; text-align:center;">Events Calander - Find out what we are doing</p></div>
+  <div class="table-cont">
+      		<div class="header">
+      			<button class="prev"></button>
+      			<span class="gd"></span>
+      			<button class="next"></button>
+      		</div>
+      		<table class="table">
+      			<thead>
+      				<tr>
+      					<td>SUN</td>
+      					<td>MON</td>
+      					<td>TUE</td>
+      					<td>WED</td>
+      					<td>THU</td>
+      					<td>FRI</td>
+      					<td>SAT</td>
+      				</tr>
+      			</thead>
+      			<tbody>
+      				<tr class="row-1">
+      					<td class="b-0">&nbsp;</td>
+      					<td class="b-1">&nbsp;</td>
+      					<td class="b-2">&nbsp;</td>
+      					<td class="b-3">&nbsp;</td>
+      					<td class="b-4">&nbsp;</td>
+      					<td class="b-5">&nbsp;</td>
+      					<td class="b-6">&nbsp;</td>
+      					<td class="b-7">&nbsp;</td>
+      					<td class="b-8">&nbsp;</td>
+      					<td class="b-9">&nbsp;</td>
+      					<td class="b-10">&nbsp;</td>
+      					<td class="b-11">&nbsp;</td>
+      					<td class="b-12">&nbsp;</td>
+      					<td class="b-13">&nbsp;</td>
+      					<td class="b-14">&nbsp;</td>
+      					<td class="b-15">&nbsp;</td>
+      					<td class="b-16">&nbsp;</td>
+      					<td class="b-17">&nbsp;</td>
+      					<td class="b-18">&nbsp;</td>
+      					<td class="b-19">&nbsp;</td>
+      					<td class="b-20">&nbsp;</td>
+      					<td class="b-21">&nbsp;</td>
+      					<td class="b-22">&nbsp;</td>
+      					<td class="b-23">&nbsp;</td>
+      					<td class="b-24">&nbsp;</td>
+      					<td class="b-25">&nbsp;</td>
+      					<td class="b-26">&nbsp;</td>
+      					<td class="b-27">&nbsp;</td>
+      					<td class="b-28">&nbsp;</td>
+      					<td class="b-29">&nbsp;</td>
+      					<td class="b-30">&nbsp;</td>
+      					<td class="b-31">&nbsp;</td>
+      					<td class="b-32">&nbsp;</td>
+      					<td class="b-33">&nbsp;</td>
+      					<td class="b-34">&nbsp;</td>
+      					<td class="b-35">&nbsp;</td>
+      					<td class="b-36">&nbsp;</td>
+      					<td class="b-37">&nbsp;</td>
+      					<td class="b-38">&nbsp;</td>
+      					<td class="b-39">&nbsp;</td>
+      					<td class="b-40">&nbsp;</td>
+      					<td class="b-41">&nbsp;</td>
+      				</tr>			
+      			</tbody>
+      		</table>
+      	</div>
+      	<div class="go-to">
+      		<input class="sel-year" placeholder="yyyy"></input>
+      		<select class="sel-month">
+      			<option value="0">Jan</option>
+      			<option value="1">Feb</option>
+      			<option value="2">Mar</option>
+      			<option value="3">Apr</option>
+      			<option value="4">May</option>
+      			<option value="5">Jun</option>
+      			<option value="6">Jul</option>
+      			<option value="7">Aug</option>
+      			<option value="8">Sep</option>
+      			<option value="9">Oct</option>
+      			<option value="10">Nov</option>
+      			<option value="11">Dec</option>
+      		</select>
+      		<select class="sel-date">
+      		</select>
+      		<button class="go">GO</button>
+      		<p class="close">X</p>
+      	</div>
+      	<p class="d1"></p>
+      	<p class="d2"></p>
+      	<p class="d3"></p>
+      	<p class="d4"></p>
+</section>
 
-<div class="container-fluid">
+<section id="donation" style="padding-top: 3.5vw;">
+<div style="margin-top:0px !important" class="container-fluid">
     <h3 class="text-center" style="font-size: 1.45em; color: #333333; font-weight: 600">Give back</h3>
-  <p class="subtitle text-center">PeformNYC<br> Bridging the Gap</p>
+  <p class="subtitle text-center">It's enough to indulge and to be selfish <br> but true happiness is really when you start giving back.</p>
 <div class="row">
   <div class="col-md-3 col-sm-3 text-center">
-    <p class="button-text">Sponsor Hip-Hop class</p>
+    <p class="button-text">Sponsor class</p>
     <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">$50</a>
   </div>
   <div class="col-md-3 col-sm-3 text-center">
-    <p class="button-text">Sponsor Technology class</p>
+    <p class="button-text">Sponsor clothing</p>
     <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">$100</a>
   </div>
   <div class="col-md-3 col-sm-3 text-center">
-    <p class="button-text">Fund a competition</p>
+    <p class="button-text">Sponsor for props</p>
     <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">$250</a>
   </div>
   <div class="col-md-3 col-sm-3 text-center">
-    <p class="button-text">Sponsor for equipment</p>
+    <p class="button-text">Sponsor for Competition</p>
    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">$500</a> 
   </div>
 </div>
@@ -255,62 +350,121 @@
       </div>
     </div>
   </div>
-</div>  
+</div>
+  <!--<div class="overlay">
+    <span><i class="fa fa-times text-right" aria-hidden="true"></i></span>
+  </div>-->
+</section>
+<section>
+  
+<section id="services" style="padding-top:30px; padding-bottom:30px;" id="Services" class="container">
+          
+          <div style="background-color:#333" class="col-md-12 section-title text-center">
+            <h2>Services</h2>
+            <p>These are the many services that PerformNYC can supply for its clients</p>
+          </div><!--col-md-12-->
 
+          <div class="services-inner text-center">
+            <div class="col-sm-4 service">
+              
+              <div class="service-content">
+                <h3><strong>Public Exposure</strong></h3>
+                <p>We offer services and opportunities for many performers and dancers to be exposed to the public world and enrich their careers</p>
+              </div>
+              
+            </div><!--col-sm-3-->
+            <div class="col-sm-4 service">
+              <div class="service-content">
+                <h3><strong>Creative Services</strong></h3>
+                <p>PerformNYC offers creative aid in design, production, and writing</p>
+              </div>
+            </div><!--col-sm-3-->
+            <div class="col-sm-4 service">
+              <div class="service-content">
+                <h3><strong>Talent Agency</strong></h3>
+                <p>
+                  PerfromNYC offers courses, training and many types of support for organizations in the performing arts
+                </p>
+              </div>
+            </div><!--col-sm-3-->
+            <div class="col-sm-4 service">
+              <div class="service-content">
+                <h3><strong>Web Development</strong></h3>
+                <p>Especially for those in the performing arts, PerfromNYC offers web development and design services</p>
+              </div>
+            </div><!--col-sm-3-->
+            <div class="col-sm-4 service">
+              <div class="service-content">
+                <h3><strong>Social Media</strong></h3>
+                <p>PerfromNYC offers service for Social Media, to aid in building social networks and communication</p>
+              </div>
+            </div><!--col-sm-3-->
+            <div class="col-sm-4 service">
+              <div class="service-content">
+                <h3><strong>eCommerce</strong></h3>
+                <p>Aid in managing marketing services, creative services, and technology services</p>
+              </div>
+            </div><!--col-sm-3-->
+          </div><!--services-inner-->
+
+        </section>  
+  
+  
   
 </section>
 
+<section id="partners">
+  
+<div id="client" class="clients">
+    <div class="container">
+        <div class="row">
+            <h2>Trusted by</h2>
 
-        
-
-          <!-- Footer -->
-          <footer class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
-            <div class="w3-row-padding">
-              <div class="w3-col s4">
-                <h4>Contact</h4>
-                <p>Questions? Go ahead.</p>
-                <form action="/action_page.php" target="_blank">
-                  <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
-                  <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
-                  <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
-                  <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
-                  <button type="submit" class="w3-button w3-block w3-black">Send</button>
-                </form>
-              </div>
-        
-              <div class="w3-col s4">
-                <h4>About</h4>
-                <p><a href="#">We're hiring</a></p>
-                <p><a href="#">Support</a></p>
-                <p><a href="#">Find store</a></p>
-                <p><a href="#">Shipment</a></p>
-                <p><a href="#">Payment</a></p>
-                <p><a href="#">Help</a></p>
-              </div>
-        
-              <div class="w3-col s4 w3-justify">
-                <h4>PerformNYC</h4>
-                <p><i class="fa fa-fw fa-map-marker"></i> 
-                PO BOX 19033    
-                New York, NY, 10002 
-                </p>
-                <p><i class="fa fa-fw fa-phone"></i> (212)-909-7643</p>
-                <p><i class="fa fa-fw fa-envelope"></i>performnyc@gmail.com  </p>
-                <h4>We accept</h4>
-                <p><i class="fab fa-cc-amazon-pay"></i> PayPal</p>
-                <p><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
-                <br>
-                <a href="https://www.facebook.com/" target="www.facebook.com"> <i class="fab fa-facebook w3-hover-opacity w3-large"></i></a>
-                <a href="https://www.snapchat.com/" target= "https://www.snapchat.com/"><i class="fab fa-snapchat w3-hover-opacity w3-large"></i> </a>
-                <a href="https://www.instagram.com/" target= "https://www.instagram.com/"><i class="fab fa-instagram w3-hover-opacity w3-large"></i> </a>
-                <a href="https://www.pinterest.com/" target= "www.pinterest.com/"> <i class="fab fa-pinterest  w3-hover-opacity w3-large"></i> </a>
-                <a href="https://www.twitter.com/" target= "www.twitter.com/"><i class="fab fa-twitter  w3-hover-opacity w3-large "></i> </a>
-                <a href="https://www.linkedin.com/" target= "www.linkedin.com/"> <i class="fab fa-linkedin-in  w3-hover-opacity w3-large"></i> </a>
-              </div>
+            <div class="col-lg-3 col-md-3">
+                <ul>
+                  <li><img src="http://logok.org/wp-content/uploads/2015/01/The-Met-Logo-2016-640x480.png"></li>
+                </ul>
             </div>
+            <div class="col-lg-3 col-md-3">
+                <ul>
+                  <li style="padding-top:50px;"><img src="http://www.mergedesignstudio.com/wp-content/uploads/2017/04/MDS-logo-04042017-01-1.png"></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <ul>
+                  <li><img src="http://static1.squarespace.com/static/5572081fe4b055140a090d13/t/5572094fe4b0888fee56e0b4/1433538281608/motiv_logo_final.png?format=1500w"></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <ul>
+                  <li><img src="https://thisiswod.com/wp-content/uploads/2018/03/wod-2017.png"></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <ul>
+                  <li><img src="http://www.transcendancestudios.com/Transparent_Background_-_TDS_Circular_Logo.png"></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <ul>
+                  <li><img src="https://static1.squarespace.com/static/56f863bcb6aa60a67ed03e69/t/56f8a0ee27d4bdeb60243011/1541783241482/"></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <ul>
+                  <li><img src="https://static1.squarespace.com/static/55eef591e4b0018fbff018e3/t/55f7562de4b054e4deb21fd8/favicon.ico"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+   
+  
+  
+</section>
+
             
-            
-            <h3>Map</h3>
+            <h3 style="text-align:center; padding:10px; background-color:#373B44;">Map</h3>
 
            <div id="googleMap" style="width:100%;height:400px;"></div>
 
@@ -325,6 +479,56 @@
             </script>
             
             <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKEDNqLX4jfc9EzqUha1SQ-hIo2CF3S7s&callback=myMap"></script>
+            
+          <!-- Footer -->
+          <footer id="contact"  style="background-color:#FE4B74 !important; border-top:10px solid black;" class="w3-padding-64 w3-light-grey w3-small w3-center" id="footer">
+            
+            
+            <div class="w3-row-padding">
+              <div class="w3-col s4">
+                <h4>Contact</h4>
+                <p style="color:black !important;">Questions? Go ahead.</p>
+                <form action="/action_page.php" target="_blank">
+                  <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
+                  <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
+                  <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
+                  <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
+                  <button type="submit" class="w3-button w3-block w3-black">Send</button>
+                </form>
+              </div>
+        
+              <div class="w3-col s4">
+                <h4>About</h4>
+                <p><a style="color:black !important;" href="#">We're hiring</a></p>
+                <p><a style="color:black !important;" href="#">Support</a></p>
+                <p><a style="color:black !important;" href="#">Find store</a></p>
+                <p><a style="color:black !important;" href="#">Shipment</a></p>
+                <p><a style="color:black !important;" href="#">Payment</a></p>
+                <p><a style="color:black !important;" href="#">Help</a></p>
+              </div>
+        
+              <div class="w3-col s4 w3-justify">
+                <h4>PerformNYC</h4>
+                <p style="color:black !important;"><i class="fa fa-fw fa-map-marker"></i> 
+                PO BOX 19033    
+                New York, NY, 10002 
+                </p>
+                <p style="color:black !important;"> <i class="fa fa-fw fa-phone"></i> (212)-909-7643</p>
+                <p style="color:black !important;"><i class="fa fa-fw fa-envelope"></i>performnyc@gmail.com  </p>
+                <h4>We accept</h4>
+                <p style="color:black !important;"> <i class="fab fa-cc-amazon-pay"></i> PayPal</p>
+                <p style="color:black !important;"><i class="fa fa-fw fa-credit-card"></i> Credit Card</p>
+                <br>
+                <a style="color:black !important;" href="https://www.facebook.com/" target="www.facebook.com"> <i class="fab fa-facebook w3-hover-opacity w3-large"></i></a>
+                <a style="color:black !important;" href="https://www.snapchat.com/" target= "https://www.snapchat.com/"><i class="fab fa-snapchat w3-hover-opacity w3-large"></i> </a>
+                <a style="color:black !important;" href="https://www.instagram.com/" target= "https://www.instagram.com/"><i class="fab fa-instagram w3-hover-opacity w3-large"></i> </a>
+                <a style="color:black !important;" href="https://www.pinterest.com/" target= "www.pinterest.com/"> <i class="fab fa-pinterest  w3-hover-opacity w3-large"></i> </a>
+                <a style="color:black !important;" href="https://www.twitter.com/" target= "www.twitter.com/"><i class="fab fa-twitter  w3-hover-opacity w3-large "></i> </a>
+                <a style="color:black !important;" href="https://www.linkedin.com/" target= "www.linkedin.com/"> <i class="fab fa-linkedin-in  w3-hover-opacity w3-large"></i> </a>
+              </div>
+            </div>
+            
+
                     
             </footer>
            
@@ -336,13 +540,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/esm/popper.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/esm/popper.js"></script>
   <script type="text/javascript" src="javascript.js"></script>
     <script type="text/javascript" src="index.js"></script>
 

@@ -1,6 +1,7 @@
 //GLOBAL VARIABLES
 /* global $ */
 
+      
 $(window).load(function(){
             setTimeout(function(){
                 $('#preloader').velocity({
@@ -27,17 +28,6 @@ $(window).load(function(){
     $(".centers").delay(1500).fadeOut(1000);  
      $(".text").delay(10500).fadeIn(1000); 
     
-$(document).ready(function() {
-  $("#testimonial-slider").owlCarousel({
-    items: 3,
-    itemsDesktop:[1000,3],
-    itemsDesktopSmall:[979,2],
-    itemsTablet:[768, 2],
-    itemsMobile:[650, 1],
-    pagination: true,
-    autoPlay: true
-  });
-});
 
 
 function biograph(e) {
@@ -73,5 +63,6 @@ $('.counting').each(function() {
   
 
 });
+
 
 
