@@ -319,7 +319,7 @@ h1{
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 700;
-    font-family: 'Oswald';
+    font-family: 'IBM Plex Sans', sans-serif ;
     color: #5F5264;
     margin-bottom: 3rem;
     
@@ -328,7 +328,7 @@ p{
     font-size: 1rem;
     color: #b6ccb6;
     line-height: 1.4;
-    font-family: 'Josefin Sans';
+    font-family: 'IBM Plex Sans', sans-serif ;
 }
 
 @media screen and (max-width:1024px){
@@ -568,7 +568,7 @@ nav.in li {
 
 * {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif ;
   font-weight: 300;
 }
 a,
@@ -585,22 +585,22 @@ h1 {
 }
 .outer-menu {
   position: fixed;
-  top: 10vh;
+  top: 0vh;
   left: 0;
   z-index: 9999;
   color:White;
   
 }
 .outer-menu .checkbox-toggle {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 2;
     overflow:hidden;
   overflow-x:hidden;
   cursor: pointer;
-  width: 56px;
-  height: 56px;
+  width: 68px;
+  height: 68px;
   opacity: 0;
 }
 .outer-menu .checkbox-toggle:checked + .hamburger > div {
@@ -1521,7 +1521,7 @@ margin-bottom: 0px !important;
 }
 
 .service{
-	padding: 20px 0;
+	padding: px 0;
 	background-color: #333;
   border:1px solid #ff4444;
 }
@@ -1551,7 +1551,7 @@ margin-bottom: 0px !important;
 }
 body{
 	background-color:#ddd; 
-  font-family: arial;
+  font-family: 'IBM Plex Sans', sans-serif ;
 }
 .table-cont .header > span.gd{
       pointer-events: none;
